@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite execution starts: Wed Mar 18 02:01:30 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[positiveLoginTest Script execution starts: Wed Mar 18 02:01:33 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[positiveLoginTestScript passed:Wed Mar 18 02:01:36 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[negativeLoginTest1 Script execution starts: Wed Mar 18 02:01:41 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[negativeLoginTest1Script passed:Wed Mar 18 02:01:42 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[negativeLoginTest2 Script execution starts: Wed Mar 18 02:01:44 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[negativeLoginTest2Script passed:Wed Mar 18 02:01:45 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[CreateCutomer1 Script execution starts: Wed Mar 18 02:01:48 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[CreateCutomer1Script passed:Wed Mar 18 02:01:52 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomer Script execution starts: Wed Mar 18 02:01:55 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomerScript passed:Wed Mar 18 02:01:58 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[CreateProject Script execution starts: Wed Mar 18 02:02:01 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[CreateProjectScript passed:Wed Mar 18 02:02:04 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[DeleteProject Script execution starts: Wed Mar 18 02:02:07 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[DeleteProjectScript passed:Wed Mar 18 02:02:10 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[CreateNewTask Script execution starts: Wed Mar 18 02:02:13 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[CreateNewTaskScript passed:Wed Mar 18 02:02:20 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[DeleteTask Script execution starts: Wed Mar 18 02:02:25 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[DeleteTaskScript passed:Wed Mar 18 02:02:29 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[CreateNewUser Script execution starts: Wed Mar 18 02:02:34 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[CreateNewUserScript passed:Wed Mar 18 02:02:39 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[LoginNewUser Script execution starts: Wed Mar 18 02:02:44 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[LoginNewUserScript passed:Wed Mar 18 02:02:46 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[DeleteUser Script execution starts: Wed Mar 18 02:02:51 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[DeleteUserScript passed:Wed Mar 18 02:02:54 IST 2020]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86484" started-at="2020-03-18T02:01:30 IST" finished-at="2020-03-18T02:02:56 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="86484" started-at="2020-03-18T02:01:30 IST" finished-at="2020-03-18T02:02:56 IST">
+      <class name="Acti.Testcases.TC3_DeleteCustomer">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC3_DeleteCustomer@5700d6b1]" name="prop" is-config="true" duration-ms="2624" started-at="2020-03-18T02:01:52 IST" finished-at="2020-03-18T02:01:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:Acti.Testcases.TC3_DeleteCustomer@5700d6b1]" name="deleteCustomer" duration-ms="3736" started-at="2020-03-18T02:01:55 IST" finished-at="2020-03-18T02:01:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteCustomer Script execution starts: Wed Mar 18 02:01:55 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[deleteCustomerScript passed:Wed Mar 18 02:01:58 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC3_DeleteCustomer@5700d6b1]" name="Teardown" is-config="true" duration-ms="73" started-at="2020-03-18T02:01:58 IST" finished-at="2020-03-18T02:01:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC3_DeleteCustomer -->
+      <class name="Acti.Testcases.TC5_DeleteProject">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC5_DeleteProject@5bcab519]" name="prop" is-config="true" duration-ms="2707" started-at="2020-03-18T02:02:04 IST" finished-at="2020-03-18T02:02:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="DeleteProject()[pri:0, instance:Acti.Testcases.TC5_DeleteProject@5bcab519]" name="DeleteProject" duration-ms="3231" started-at="2020-03-18T02:02:07 IST" finished-at="2020-03-18T02:02:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[DeleteProject Script execution starts: Wed Mar 18 02:02:07 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[DeleteProjectScript passed:Wed Mar 18 02:02:10 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteProject -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC5_DeleteProject@5bcab519]" name="Teardown" is-config="true" duration-ms="61" started-at="2020-03-18T02:02:10 IST" finished-at="2020-03-18T02:02:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC5_DeleteProject -->
+      <class name="Acti.Testcases.TC9_LoginNewUser">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC9_LoginNewUser@3f49dace]" name="prop" is-config="true" duration-ms="2411" started-at="2020-03-18T02:02:41 IST" finished-at="2020-03-18T02:02:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="LoginNewUser()[pri:0, instance:Acti.Testcases.TC9_LoginNewUser@3f49dace]" name="LoginNewUser" duration-ms="2637" started-at="2020-03-18T02:02:44 IST" finished-at="2020-03-18T02:02:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginNewUser Script execution starts: Wed Mar 18 02:02:44 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[LoginNewUserScript passed:Wed Mar 18 02:02:46 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginNewUser -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC9_LoginNewUser@3f49dace]" name="Teardown" is-config="true" duration-ms="2390" started-at="2020-03-18T02:02:46 IST" finished-at="2020-03-18T02:02:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC9_LoginNewUser -->
+      <class name="Acti.Testcases.TC10_DeleteUser">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC10_DeleteUser@1e397ed7]" name="prop" is-config="true" duration-ms="2271" started-at="2020-03-18T02:02:49 IST" finished-at="2020-03-18T02:02:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="DeleteUser()[pri:0, instance:Acti.Testcases.TC10_DeleteUser@1e397ed7]" name="DeleteUser" duration-ms="3032" started-at="2020-03-18T02:02:51 IST" finished-at="2020-03-18T02:02:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[DeleteUser Script execution starts: Wed Mar 18 02:02:51 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[DeleteUserScript passed:Wed Mar 18 02:02:54 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteUser -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC10_DeleteUser@1e397ed7]" name="Teardown" is-config="true" duration-ms="2387" started-at="2020-03-18T02:02:54 IST" finished-at="2020-03-18T02:02:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC10_DeleteUser -->
+      <class name="Acti.Testcases.TC7_DeleteTask">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC7_DeleteTask@5f2108b5]" name="prop" is-config="true" duration-ms="2548" started-at="2020-03-18T02:02:22 IST" finished-at="2020-03-18T02:02:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="DeleteTask()[pri:0, instance:Acti.Testcases.TC7_DeleteTask@5f2108b5]" name="DeleteTask" duration-ms="4591" started-at="2020-03-18T02:02:25 IST" finished-at="2020-03-18T02:02:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[DeleteTask Script execution starts: Wed Mar 18 02:02:25 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[DeleteTaskScript passed:Wed Mar 18 02:02:29 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteTask -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC7_DeleteTask@5f2108b5]" name="Teardown" is-config="true" duration-ms="2391" started-at="2020-03-18T02:02:29 IST" finished-at="2020-03-18T02:02:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC7_DeleteTask -->
+      <class name="Acti.Testcases.TC2_CreateCustomer">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC2_CreateCustomer@1ce92674]" name="prop" is-config="true" duration-ms="2536" started-at="2020-03-18T02:01:45 IST" finished-at="2020-03-18T02:01:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="CreateCutomer1()[pri:0, instance:Acti.Testcases.TC2_CreateCustomer@1ce92674]" name="CreateCutomer1" duration-ms="3925" started-at="2020-03-18T02:01:48 IST" finished-at="2020-03-18T02:01:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateCutomer1 Script execution starts: Wed Mar 18 02:01:48 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[CreateCutomer1Script passed:Wed Mar 18 02:01:52 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateCutomer1 -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC2_CreateCustomer@1ce92674]" name="Teardown" is-config="true" duration-ms="77" started-at="2020-03-18T02:01:52 IST" finished-at="2020-03-18T02:01:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC2_CreateCustomer -->
+      <class name="Acti.Testcases.TC8_CreateNewUser">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC8_CreateNewUser@31a5c39e]" name="prop" is-config="true" duration-ms="2372" started-at="2020-03-18T02:02:32 IST" finished-at="2020-03-18T02:02:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="CreateNewUser()[pri:0, instance:Acti.Testcases.TC8_CreateNewUser@31a5c39e]" name="CreateNewUser" duration-ms="4518" started-at="2020-03-18T02:02:34 IST" finished-at="2020-03-18T02:02:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateNewUser Script execution starts: Wed Mar 18 02:02:34 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[CreateNewUserScript passed:Wed Mar 18 02:02:39 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewUser -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC8_CreateNewUser@31a5c39e]" name="Teardown" is-config="true" duration-ms="2379" started-at="2020-03-18T02:02:39 IST" finished-at="2020-03-18T02:02:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC8_CreateNewUser -->
+      <class name="Acti.Testcases.TC6_CreateNewTask">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC6_CreateNewTask@e45f292]" name="prop" is-config="true" duration-ms="2523" started-at="2020-03-18T02:02:10 IST" finished-at="2020-03-18T02:02:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="CreateNewTask()[pri:0, instance:Acti.Testcases.TC6_CreateNewTask@e45f292]" name="CreateNewTask" duration-ms="7090" started-at="2020-03-18T02:02:13 IST" finished-at="2020-03-18T02:02:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateNewTask Script execution starts: Wed Mar 18 02:02:13 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[CreateNewTaskScript passed:Wed Mar 18 02:02:20 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewTask -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC6_CreateNewTask@e45f292]" name="Teardown" is-config="true" duration-ms="2368" started-at="2020-03-18T02:02:20 IST" finished-at="2020-03-18T02:02:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC6_CreateNewTask -->
+      <class name="Acti.Testcases.TC_Login">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC_Login@7085bdee]" name="prop" is-config="true" duration-ms="3396" started-at="2020-03-18T02:01:30 IST" finished-at="2020-03-18T02:01:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:1, instance:Acti.Testcases.TC_Login@7085bdee]" name="positiveLoginTest" duration-ms="2875" started-at="2020-03-18T02:01:33 IST" finished-at="2020-03-18T02:01:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[positiveLoginTest Script execution starts: Wed Mar 18 02:01:33 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[positiveLoginTestScript passed:Wed Mar 18 02:01:36 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC_Login@7085bdee]" name="Teardown" is-config="true" duration-ms="2396" started-at="2020-03-18T02:01:36 IST" finished-at="2020-03-18T02:01:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC_Login@7085bdee]" name="prop" is-config="true" duration-ms="2554" started-at="2020-03-18T02:01:38 IST" finished-at="2020-03-18T02:01:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="negativeLoginTest1()[pri:2, instance:Acti.Testcases.TC_Login@7085bdee]" name="negativeLoginTest1" duration-ms="959" started-at="2020-03-18T02:01:41 IST" finished-at="2020-03-18T02:01:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[negativeLoginTest1 Script execution starts: Wed Mar 18 02:01:41 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[negativeLoginTest1Script passed:Wed Mar 18 02:01:42 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest1 -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC_Login@7085bdee]" name="Teardown" is-config="true" duration-ms="76" started-at="2020-03-18T02:01:42 IST" finished-at="2020-03-18T02:01:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC_Login@7085bdee]" name="prop" is-config="true" duration-ms="2406" started-at="2020-03-18T02:01:42 IST" finished-at="2020-03-18T02:01:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="negativeLoginTest2()[pri:3, instance:Acti.Testcases.TC_Login@7085bdee]" name="negativeLoginTest2" duration-ms="704" started-at="2020-03-18T02:01:44 IST" finished-at="2020-03-18T02:01:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[negativeLoginTest2 Script execution starts: Wed Mar 18 02:01:44 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[negativeLoginTest2Script passed:Wed Mar 18 02:01:45 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest2 -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC_Login@7085bdee]" name="Teardown" is-config="true" duration-ms="161" started-at="2020-03-18T02:01:45 IST" finished-at="2020-03-18T02:01:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC_Login -->
+      <class name="Acti.Testcases.TC4_CreateProject">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC4_CreateProject@6fd02e5]" name="prop" is-config="true" duration-ms="2437" started-at="2020-03-18T02:01:58 IST" finished-at="2020-03-18T02:02:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="CreateProject()[pri:0, instance:Acti.Testcases.TC4_CreateProject@6fd02e5]" name="CreateProject" duration-ms="3503" started-at="2020-03-18T02:02:01 IST" finished-at="2020-03-18T02:02:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateProject Script execution starts: Wed Mar 18 02:02:01 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[CreateProjectScript passed:Wed Mar 18 02:02:04 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateProject -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC4_CreateProject@6fd02e5]" name="Teardown" is-config="true" duration-ms="75" started-at="2020-03-18T02:02:04 IST" finished-at="2020-03-18T02:02:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC4_CreateProject -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8888" started-at="2020-03-18T01:59:52 IST" finished-at="2020-03-18T02:00:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8888" started-at="2020-03-18T01:59:52 IST" finished-at="2020-03-18T02:00:01 IST">
+      <class name="Acti.Testcases.TC10_DeleteUser">
+        <test-method status="PASS" signature="prop()[pri:0, instance:Acti.Testcases.TC10_DeleteUser@4f063c0a]" name="prop" is-config="true" duration-ms="3471" started-at="2020-03-18T01:59:52 IST" finished-at="2020-03-18T01:59:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prop -->
+        <test-method status="PASS" signature="CreateNewUser()[pri:0, instance:Acti.Testcases.TC10_DeleteUser@4f063c0a]" name="CreateNewUser" duration-ms="2969" started-at="2020-03-18T01:59:55 IST" finished-at="2020-03-18T01:59:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUser -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acti.Testcases.TC10_DeleteUser@4f063c0a]" name="Teardown" is-config="true" duration-ms="2382" started-at="2020-03-18T01:59:58 IST" finished-at="2020-03-18T02:00:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acti.Testcases.TC10_DeleteUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

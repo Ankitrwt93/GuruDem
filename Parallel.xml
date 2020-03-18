@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name= "Acti.Utilities.MyTestNgListeners"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="Acti.Testcases.TC_Login"/>
+      <class name="Acti.Testcases.TC2_CreateCustomer"/>
+      <class name="Acti.Testcases.TC3_DeleteCustomer"/> 
+      <class name="Acti.Testcases.TC4_CreateProject"/>
+      <class name="Acti.Testcases.TC5_DeleteProject"/>
+      <class name="Acti.Testcases.TC6_CreateNewTask"/>
+      <class name="Acti.Testcases.TC7_DeleteTask"/>
+      <class name="Acti.Testcases.TC8_CreateNewUser"/>
+      <class name="Acti.Testcases.TC9_LoginNewUser"/>
+      <class name="Acti.Testcases.TC10_DeleteUser"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
